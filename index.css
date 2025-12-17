@@ -1,0 +1,11 @@
+/* 
+  File ini dibutuhkan untuk mengatasi error "Failed to resolve import".
+  Karena aplikasi menggunakan Tailwind CSS via CDN (index.html),
+  file ini hanya digunakan untuk global styles tambahan jika diperlukan.
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}

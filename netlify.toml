@@ -1,0 +1,12 @@
+[build]
+command = "npm run build"
+publish = "dist"
+
+[build.environment]
+# Ensure Node 18+ for Vite/React 19 compatibility
+NODE_VERSION = "18"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
